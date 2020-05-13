@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+html, body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    height: 45vh;
+    color: #fff;
+    background-image: linear-gradient(35deg, black, transparent), url(images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    border-bottom-left-radius: 20% 5%;
+    border-bottom-right-radius: 20% 5%;
+}
+
+.card {
+    border: 1px solid #BEA6A0;
+}
+.card-header, .card-footer {
+    background-color: #56423D;
+    background-color: #BEA6A0;
+    color: #fff;
+}
+.card-body {
+    background-color: #FFF4ED;
+}
+
+.btn-primary {
+    background-color: #574240;
+    border-color: #574240;
+}
