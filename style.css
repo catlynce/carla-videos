@@ -32,3 +32,10 @@ html, body {
     background-color: #574240;
     border-color: #574240;
 }
+
+a {
+    color: #574240;
+}
+a:hover {
+    color: #7F5450;
+}
