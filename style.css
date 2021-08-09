@@ -4,6 +4,40 @@ html, body {
     font-family: 'PT Sans', sans-serif;
 }
 
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(35deg, rgba(0,0,0,.5), transparent), url(images/bg.jpg);
+    background-image: url(images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+article {
+    margin: 50px 0;
+    width: 72vw;
+    height: auto;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 2px;
+}
+
+iframe {
+    border: 0;
+}
+
+.info-wrapper {
+    padding: 20px;
+}
+
 .jumbotron {
     display: flex;
     align-items: center;
@@ -38,4 +72,10 @@ a {
 }
 a:hover {
     color: #7F5450;
+}
+
+@media (min-width: 900px) {
+    article {
+        width: 760px;
+    }
 }
